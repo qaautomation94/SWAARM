@@ -4,7 +4,7 @@
   <artifactId>Swaarm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
    <properties>
-  <suitexmlFile>src\main\resources\testng.xml</suitexmlFile>
+  <suitexmlFile>testng.xml</suitexmlFile>
   <skipTests>false</skipTests>
    <maven.compiler.source>1.8</maven.compiler.source>
   <maven.compiler.target>1.8</maven.compiler.target>
@@ -70,7 +70,7 @@
         <version>3.0.0-M3</version>
         <configuration>
             <suiteXmlFiles>
-                <suiteXmlFile>src\main\resources\testng.xml</suiteXmlFile>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
             </suiteXmlFiles>
             
 <forkMode>never</forkMode>
@@ -84,7 +84,7 @@
    <version>2.3.2</version>
   <configuration>
             <suiteXmlFiles>
-                <suiteXmlFile>src\main\resources\testng.xml</suiteXmlFile>
+                <suiteXmlFile>testng.xml</suiteXmlFile>
             </suiteXmlFiles>
 
 

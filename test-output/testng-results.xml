@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82329" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:27:43 PKT">
+  <suite started-at="2021-01-28T01:08:18 PKT" name="Suite" finished-at="2021-01-28T01:10:09 PKT" duration-ms="111111">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82329" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:27:43 PKT">
+    <test started-at="2021-01-28T01:08:18 PKT" name="Test" finished-at="2021-01-28T01:10:09 PKT" duration-ms="111111">
       <class name="Master.ExecutionFile">
-        <test-method status="PASS" signature="SystmProperties()[pri:0, instance:Master.ExecutionFile@32709393]" name="SystmProperties" is-config="true" duration-ms="280" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:26:20 PKT">
+        <test-method is-config="true" signature="SystmProperties()[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:08:18 PKT" name="SystmProperties" finished-at="2021-01-28T01:08:18 PKT" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SystmProperties -->
-        <test-method status="PASS" signature="Startup()[pri:0, instance:Master.ExecutionFile@32709393]" name="Startup" is-config="true" duration-ms="3379" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:26:24 PKT">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:08:18 PKT" name="Startup" finished-at="2021-01-28T01:08:25 PKT" duration-ms="7439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startup -->
-        <test-method status="PASS" signature="Login_to_SWAARM()[pri:1, instance:Master.ExecutionFile@32709393]" name="Login_to_SWAARM" duration-ms="8314" started-at="2021-01-27T17:26:24 PKT" finished-at="2021-01-27T17:26:32 PKT">
+        <test-method signature="Login_to_SWAARM()[pri:1, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:08:26 PKT" name="Login_to_SWAARM" finished-at="2021-01-28T01:08:54 PKT" duration-ms="28472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_to_SWAARM -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@32709393]" name="getResult" is-config="true" duration-ms="642" started-at="2021-01-27T17:26:32 PKT" finished-at="2021-01-27T17:26:33 PKT">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:08:54 PKT" name="getResult" finished-at="2021-01-28T01:08:55 PKT" duration-ms="930" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login_to_SWAARM status=SUCCESS method=ExecutionFile.Login_to_SWAARM()[pri:1, instance:Master.ExecutionFile@32709393] output={null}]]]>
+                <![CDATA[[TestResult name=Login_to_SWAARM status=SUCCESS method=ExecutionFile.Login_to_SWAARM()[pri:1, instance:Master.ExecutionFile@4fe767f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="At_least_2_publishers_defined()[pri:2, instance:Master.ExecutionFile@32709393]" name="At_least_2_publishers_defined" duration-ms="9131" started-at="2021-01-27T17:26:33 PKT" finished-at="2021-01-27T17:26:42 PKT">
+        <test-method signature="At_least_2_publishers_defined()[pri:2, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:08:55 PKT" name="At_least_2_publishers_defined" finished-at="2021-01-28T01:09:05 PKT" duration-ms="10351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- At_least_2_publishers_defined -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@32709393]" name="getResult" is-config="true" duration-ms="74" started-at="2021-01-27T17:26:42 PKT" finished-at="2021-01-27T17:26:42 PKT">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:09:05 PKT" name="getResult" finished-at="2021-01-28T01:09:05 PKT" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=At_least_2_publishers_defined status=SUCCESS method=ExecutionFile.At_least_2_publishers_defined()[pri:2, instance:Master.ExecutionFile@32709393] output={null}]]]>
+                <![CDATA[[TestResult name=At_least_2_publishers_defined status=SUCCESS method=ExecutionFile.At_least_2_publishers_defined()[pri:2, instance:Master.ExecutionFile@4fe767f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="At_least_1_offer_with_a_budget_defined()[pri:3, instance:Master.ExecutionFile@32709393]" name="At_least_1_offer_with_a_budget_defined" duration-ms="60659" started-at="2021-01-27T17:26:42 PKT" finished-at="2021-01-27T17:27:43 PKT">
+        <test-method signature="At_least_1_offer_with_a_budget_defined()[pri:3, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:09:05 PKT" name="At_least_1_offer_with_a_budget_defined" finished-at="2021-01-28T01:10:09 PKT" duration-ms="63439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- At_least_1_offer_with_a_budget_defined -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@32709393]" name="getResult" is-config="true" duration-ms="66" started-at="2021-01-27T17:27:43 PKT" finished-at="2021-01-27T17:27:43 PKT">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:10:09 PKT" name="getResult" finished-at="2021-01-28T01:10:09 PKT" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=At_least_1_offer_with_a_budget_defined status=SUCCESS method=ExecutionFile.At_least_1_offer_with_a_budget_defined()[pri:3, instance:Master.ExecutionFile@32709393] output={null}]]]>
+                <![CDATA[[TestResult name=At_least_1_offer_with_a_budget_defined status=SUCCESS method=ExecutionFile.At_least_1_offer_with_a_budget_defined()[pri:3, instance:Master.ExecutionFile@4fe767f3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:Master.ExecutionFile@32709393]" name="endReport" is-config="true" duration-ms="1" started-at="2021-01-27T17:27:43 PKT" finished-at="2021-01-27T17:27:43 PKT">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:10:09 PKT" name="endReport" finished-at="2021-01-28T01:10:09 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Master.ExecutionFile@32709393]" name="CloseBrowser" is-config="true" duration-ms="720" started-at="2021-01-27T17:27:43 PKT" finished-at="2021-01-27T17:27:43 PKT">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Master.ExecutionFile@4fe767f3]" started-at="2021-01-28T01:10:09 PKT" name="CloseBrowser" finished-at="2021-01-28T01:10:11 PKT" duration-ms="1735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- Master.ExecutionFile -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
