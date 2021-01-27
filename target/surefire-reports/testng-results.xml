@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="208040" started-at="2021-01-27T16:15:17 PKT" finished-at="2021-01-27T16:18:45 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="208040" started-at="2021-01-27T16:15:17 PKT" finished-at="2021-01-27T16:18:45 PKT">
+      <class name="Master.Level2Connect">
+        <test-method status="PASS" signature="Browser_Chrome()[pri:0, instance:Master.Level2Connect@7d4a59f0]" name="Browser_Chrome" is-config="true" duration-ms="23127" started-at="2021-01-27T16:15:17 PKT" finished-at="2021-01-27T16:15:40 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Chrome -->
+        <test-method status="PASS" signature="ConnectLoginApp()[pri:1, instance:Master.Level2Connect@7d4a59f0]" name="ConnectLoginApp" duration-ms="13497" started-at="2021-01-27T16:15:40 PKT" finished-at="2021-01-27T16:15:53 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectLoginApp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.Level2Connect@7d4a59f0]" name="getResult" is-config="true" duration-ms="477" started-at="2021-01-27T16:15:53 PKT" finished-at="2021-01-27T16:15:54 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConnectLoginApp status=SUCCESS method=Level2Connect.ConnectLoginApp()[pri:1, instance:Master.Level2Connect@7d4a59f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Advanced_SearchResult()[pri:2, instance:Master.Level2Connect@7d4a59f0]" name="Advanced_SearchResult" duration-ms="4340" started-at="2021-01-27T16:15:54 PKT" finished-at="2021-01-27T16:15:58 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Advanced_SearchResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.Level2Connect@7d4a59f0]" name="getResult" is-config="true" duration-ms="58" started-at="2021-01-27T16:15:58 PKT" finished-at="2021-01-27T16:15:58 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Advanced_SearchResult status=SUCCESS method=Level2Connect.Advanced_SearchResult()[pri:2, instance:Master.Level2Connect@7d4a59f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DistCreditScore()[pri:3, instance:Master.Level2Connect@7d4a59f0]" name="DistCreditScore" duration-ms="127554" started-at="2021-01-27T16:15:58 PKT" finished-at="2021-01-27T16:18:06 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistCreditScore -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.Level2Connect@7d4a59f0]" name="getResult" is-config="true" duration-ms="60" started-at="2021-01-27T16:18:06 PKT" finished-at="2021-01-27T16:18:06 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DistCreditScore status=SUCCESS method=Level2Connect.DistCreditScore()[pri:3, instance:Master.Level2Connect@7d4a59f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ASIMediaStats()[pri:4, instance:Master.Level2Connect@7d4a59f0]" name="ASIMediaStats" duration-ms="38808" started-at="2021-01-27T16:18:06 PKT" finished-at="2021-01-27T16:18:45 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASIMediaStats -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.Level2Connect@7d4a59f0]" name="getResult" is-config="true" duration-ms="56" started-at="2021-01-27T16:18:45 PKT" finished-at="2021-01-27T16:18:45 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ASIMediaStats status=SUCCESS method=Level2Connect.ASIMediaStats()[pri:4, instance:Master.Level2Connect@7d4a59f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Master.Level2Connect -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

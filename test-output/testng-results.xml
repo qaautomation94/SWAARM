@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82329" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:27:43 PKT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82329" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:27:43 PKT">
+      <class name="Master.ExecutionFile">
+        <test-method status="PASS" signature="SystmProperties()[pri:0, instance:Master.ExecutionFile@32709393]" name="SystmProperties" is-config="true" duration-ms="280" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:26:20 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SystmProperties -->
+        <test-method status="PASS" signature="Startup()[pri:0, instance:Master.ExecutionFile@32709393]" name="Startup" is-config="true" duration-ms="3379" started-at="2021-01-27T17:26:20 PKT" finished-at="2021-01-27T17:26:24 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method status="PASS" signature="Login_to_SWAARM()[pri:1, instance:Master.ExecutionFile@32709393]" name="Login_to_SWAARM" duration-ms="8314" started-at="2021-01-27T17:26:24 PKT" finished-at="2021-01-27T17:26:32 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_SWAARM -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@32709393]" name="getResult" is-config="true" duration-ms="642" started-at="2021-01-27T17:26:32 PKT" finished-at="2021-01-27T17:26:33 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_to_SWAARM status=SUCCESS method=ExecutionFile.Login_to_SWAARM()[pri:1, instance:Master.ExecutionFile@32709393] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="At_least_2_publishers_defined()[pri:2, instance:Master.ExecutionFile@32709393]" name="At_least_2_publishers_defined" duration-ms="9131" started-at="2021-01-27T17:26:33 PKT" finished-at="2021-01-27T17:26:42 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- At_least_2_publishers_defined -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@32709393]" name="getResult" is-config="true" duration-ms="74" started-at="2021-01-27T17:26:42 PKT" finished-at="2021-01-27T17:26:42 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=At_least_2_publishers_defined status=SUCCESS method=ExecutionFile.At_least_2_publishers_defined()[pri:2, instance:Master.ExecutionFile@32709393] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="At_least_1_offer_with_a_budget_defined()[pri:3, instance:Master.ExecutionFile@32709393]" name="At_least_1_offer_with_a_budget_defined" duration-ms="60659" started-at="2021-01-27T17:26:42 PKT" finished-at="2021-01-27T17:27:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- At_least_1_offer_with_a_budget_defined -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ExecutionFile@32709393]" name="getResult" is-config="true" duration-ms="66" started-at="2021-01-27T17:27:43 PKT" finished-at="2021-01-27T17:27:43 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=At_least_1_offer_with_a_budget_defined status=SUCCESS method=ExecutionFile.At_least_1_offer_with_a_budget_defined()[pri:3, instance:Master.ExecutionFile@32709393] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:Master.ExecutionFile@32709393]" name="endReport" is-config="true" duration-ms="1" started-at="2021-01-27T17:27:43 PKT" finished-at="2021-01-27T17:27:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Master.ExecutionFile@32709393]" name="CloseBrowser" is-config="true" duration-ms="720" started-at="2021-01-27T17:27:43 PKT" finished-at="2021-01-27T17:27:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Master.ExecutionFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
