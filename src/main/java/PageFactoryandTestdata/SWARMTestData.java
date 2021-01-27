@@ -1,8 +1,5 @@
 package PageFactoryandTestdata;
 
-import java.util.Date;
-
-
 public class SWARMTestData {
 
 	public static String Banme="Chrome"; 

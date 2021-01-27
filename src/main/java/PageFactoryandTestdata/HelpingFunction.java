@@ -1,5 +1,4 @@
 package PageFactoryandTestdata;
-import java.io.IOException;
 import java.util.NoSuchElementException;
 
 import org.openqa.selenium.JavascriptExecutor;

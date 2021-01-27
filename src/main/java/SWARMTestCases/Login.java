@@ -4,19 +4,16 @@ package SWARMTestCases;
 
 import java.awt.AWTException;
 import java.io.IOException;
-import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 
+import PageFactoryandTestdata.HelpingFunction;
 import PageFactoryandTestdata.SWARMLocatiors;
 import PageFactoryandTestdata.SWARMTestData;
-import PageFactoryandTestdata.HelpingFunction;
 
 
 public class Login extends HelpingFunction  {
@@ -33,8 +30,8 @@ public class Login extends HelpingFunction  {
 					Input("Please Enter UserName", GetData.UserName, SWARMTestData.USER);
 					Input("Please Enter Password", GetData.Password, SWARMTestData.PASS);
 					Click("Please click login button",GetData.LoginButton);
-					//Thread.sleep(10000);
-					//Assert.assertTrue(GetData.Publishers.isDisplayed());
+					Thread.sleep(10000);
+					Assert.assertTrue(GetData.Publishers.isDisplayed());
 
 					
 				}

@@ -11,11 +11,9 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 
-import PageFactoryandTestdata.SWARMLocatiors;
-import PageFactoryandTestdata.SWARMTestData;
 import PageFactoryandTestdata.HelpingFunction;
+import PageFactoryandTestdata.SWARMLocatiors;
 
 
 public class VerifyPublisher extends HelpingFunction  {
