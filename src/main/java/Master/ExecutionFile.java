@@ -54,16 +54,17 @@ public class ExecutionFile {
 	@Test(priority=1)
 	 		public   void Login_to_SWAARM() throws InterruptedException, AWTException, IOException{
 				 	Login.login();
+				 // I am commenting code	
 				 	
 			 	}
 	
 	
-	@Test(priority=2)
+	@Test(priority=2 , dependsOnMethods={"Login_to_SWAARM"})	
 	public static  void At_least_2_publishers_defined() throws InterruptedException, AWTException, IOException{
 					VerifyPublisher.VerifyPublishers();
  				}
 
-	@Test(priority=3)
+	@Test(priority=3, dependsOnMethods={"Login_to_SWAARM"})	
 	public static  void At_least_1_offer_with_a_budget_defined() throws InterruptedException, AWTException, IOException{
 					ApprovedBudget.VerifyApprovedBudget();
  				}
